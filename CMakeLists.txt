@@ -12,6 +12,7 @@ add_message_files(
   FILES
   canFrame.msg
   canFrameArray.msg
+  extn_data.msg
 )
 
 generate_messages(
