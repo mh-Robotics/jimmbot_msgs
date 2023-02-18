@@ -10,9 +10,12 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
   FILES
-  canFrame.msg
-  canFrameArray.msg
-  extn_data.msg
+  CanFrame.msg
+  CanFrameArray.msg
+  CanFrameArrayStamped.msg
+  CanFrameStamped.msg
+  ExtnData.msg
+  ExtnDataStamped.msg
 )
 
 generate_messages(
